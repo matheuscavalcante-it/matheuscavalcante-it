@@ -32,7 +32,7 @@ class matheuscavalcante-it:
             "tools": ["Pandas", "Anaconda Prompt", "Jupyter notebook", "Selenium", "PyAutoGui"],
             "server management": ["Linux Debian (No GUI)", "Windows Server"],
             "services": ["DHCP", "DNS", "Asterisk", "Print Management", "HTTP"],
-            "network": ["RIP", "VLAN", "VLSM", "ACL", "802.1Q", "TCP/IP", "OSI Model", "Cisco", "CLI configuration", "Physical Infraestructure Repairing"]
+            "network": ["RIP", "VLAN", "VLSM", "ACL", "802.1Q", "TCP/IP", "OSI Model", "Cisco VoIP", "CLI", "APIPA", "OSPF"]
         }
 
     def __str__(self):
