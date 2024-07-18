@@ -25,6 +25,7 @@ class matheuscavalcante-it:
     def __init__(self):
         self.name = "Matheus Cavalcante"
         self.role = "Computer Network Technician"
+        self.language_spoken = ["pt_BR", "en_US"]
         self.technologies = {
             "code": ["Python"],
             "VM": ["VirtualBox"],
