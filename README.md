@@ -20,21 +20,25 @@
 ##
 
 ```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-
-class ComputerNetworkTechnician:
+class matheuscavalcante-it:
 
     def __init__(self):
         self.name = "Matheus Cavalcante"
         self.role = "Computer Network Technician"
-        self.language_spoken = ["pt_BR", "en_US"]
+        self.technologies = {
+            "code": ["Python"],
+            "VM": ["VirtualBox"],
+            "tools": ["Pandas", "Anaconda Prompt", "Jupyter notebook", "Selenium", "PyAutoGui"],
+            "server management": ["Linux Debian (No GUI)", "Windows Server"],
+            "services": ["DHCP", "DNS", "Asterisk", "Print Management", "HTTP"],
+            "network": ["RIP", "VLAN", "VLSM", "ACL", "802.1Q", "TCP/IP", "OSI Model", "Cisco", "CLI configuration", "Physical Infraestructure Repairing"]
+        }
 
-    def say_hi(self):
-        print("Obrigado por passar por aqui, espero que você ache alguns dos meus trabalhos interessantes.")
+    def __str__(self):
+        return f'{self.name} | {self.role}'
 
 
-me = ComputerNetworkTechnician()
-me.say_hi()
+if __name__ == '__main__':
+    me = matheuscavalcante-it()
+    print(me)
 ```
