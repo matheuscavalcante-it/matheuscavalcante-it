@@ -24,17 +24,17 @@
 # -*- coding: utf-8 -*-
 
 
-class ComputerNetworkStudent:
+class ComputerNetworkTechnician:
 
     def __init__(self):
         self.name = "Matheus Cavalcante"
-        self.role = "Computer Network Student"
+        self.role = "Computer Network Technician"
         self.language_spoken = ["pt_BR", "en_US"]
 
     def say_hi(self):
         print("Obrigado por passar por aqui, espero que você ache alguns dos meus trabalhos interessantes.")
 
 
-me = ComputerNetworkStudent()
+me = ComputerNetworkTechnician()
 me.say_hi()
 ```
