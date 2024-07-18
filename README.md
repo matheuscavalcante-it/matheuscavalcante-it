@@ -16,3 +16,25 @@
   <a href = "mailto:matheuscavalcantedosreis@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/matheus-cavalcante-670707214/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
+
+##
+
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+class ComputerNetworkStudent:
+
+    def __init__(self):
+        self.name = "Matheus Cavalcante"
+        self.role = "Computer Network Student"
+        self.language_spoken = ["pt_BR", "en_US"]
+
+    def say_hi(self):
+        print("Obrigado por passar por aqui, espero que você ache alguns dos meus trabalhos interessantes.")
+
+
+me = ComputerNetworkStudent()
+me.say_hi()
+```
