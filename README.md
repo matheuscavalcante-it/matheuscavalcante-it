@@ -30,7 +30,7 @@ class matheuscavalcante-it:
             "code": ["Python"],
             "VM": ["VirtualBox"],
             "tools": ["Pandas", "Anaconda Prompt", "Jupyter notebook", "Selenium", "PyAutoGui"],
-            "server management": ["Linux Debian (No GUI)", "Windows Server"],
+            "server management": ["Debian Server (Bullseye - Bookworm)", "Windows Server"],
             "services": ["DHCP", "DNS", "Asterisk", "Print Management", "HTTP"],
             "network": ["RIP", "VLAN", "VLSM", "ACL", "802.1Q", "TCP/IP", "OSI Model", "Cisco VoIP", "CLI", "APIPA", "OSPF"]
         }
